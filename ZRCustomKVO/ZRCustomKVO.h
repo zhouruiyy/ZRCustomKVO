@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <ZRCustomKVO/NSObject+ZRKVO.h>
 
 //! Project version number for ZRCustomKVO.
 FOUNDATION_EXPORT double ZRCustomKVOVersionNumber;

@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3EB24A84260876FE00BAB2B5 /* ZRCustomKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB24A82260876FD00BAB2B5 /* ZRCustomKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB24A8D2608773100BAB2B5 /* NSObject+ZRKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB24A8B2608773100BAB2B5 /* NSObject+ZRKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB24A8E2608773100BAB2B5 /* NSObject+ZRKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB24A8C2608773100BAB2B5 /* NSObject+ZRKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3EB24A7F260876FD00BAB2B5 /* ZRCustomKVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZRCustomKVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB24A82260876FD00BAB2B5 /* ZRCustomKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRCustomKVO.h; sourceTree = "<group>"; };
 		3EB24A83260876FE00BAB2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB24A8B2608773100BAB2B5 /* NSObject+ZRKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZRKVO.h"; sourceTree = "<group>"; };
+		3EB24A8C2608773100BAB2B5 /* NSObject+ZRKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZRKVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				3EB24A82260876FD00BAB2B5 /* ZRCustomKVO.h */,
+				3EB24A8B2608773100BAB2B5 /* NSObject+ZRKVO.h */,
+				3EB24A8C2608773100BAB2B5 /* NSObject+ZRKVO.m */,
 				3EB24A83260876FE00BAB2B5 /* Info.plist */,
 			);
 			path = ZRCustomKVO;
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EB24A84260876FE00BAB2B5 /* ZRCustomKVO.h in Headers */,
+				3EB24A8D2608773100BAB2B5 /* NSObject+ZRKVO.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EB24A8E2608773100BAB2B5 /* NSObject+ZRKVO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +270,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ZRCustomKVO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -284,6 +293,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ZRCustomKVO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
